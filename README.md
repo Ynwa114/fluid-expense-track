@@ -141,13 +141,6 @@ To clear caches, click "🔄 Refresh Data" in the dashboard sidebar.
 ### Adding New Solana Program
 - No changes needed! All treasury outflows are automatically tracked
 
-## Notes
 
-- All FLUID rewards are valued at current FLUID price
-- Solana expenses exclude USDC (considered partner-sponsored)
-- EVM expenses exclude Maple syrupUSDC rewards (marked in Dune query)
-- Cache refreshes automatically after TTL expires
 
-## Support
 
-For issues or questions, contact the Fluid team.
