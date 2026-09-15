@@ -1,0 +1,18 @@
+{
+  "name": "sui-flashloan-toolkit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Read live flash-loan liquidity and dry-run actual borrow+repay transactions against NAVI and DeepBook v3 on Sui, plus an Aave v3 (Ethereum) comparison.",
+  "scripts": {
+    "liquidity": "node liquidity.mjs",
+    "test": "node test-flashloan.mjs",
+    "aave": "node aave-usdc.mjs"
+  },
+  "dependencies": {
+    "@mysten/deepbook-v3": "^1.6.4",
+    "@mysten/sui": "^2.24.0",
+    "navi-sdk": "^1.7.3",
+    "viem": "^2.23.2"
+  }
+}
